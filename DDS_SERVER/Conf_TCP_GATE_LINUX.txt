@@ -1,0 +1,21 @@
+[TCP_CLIENT]
+IP_Address	192.168.12.50
+Port	40000
+Channel	2
+Type	MAIN
+Frequency	350
+[END]
+
+[LOGGER]
+LogName	logGate
+SysLogName	logGate
+LogMode	INFO
+StatusLog	ON
+StatusSysLog	OFF
+SizeLogFile	10240
+[END]
+
+[TCP_VISOR]
+IP_Address	192.168.12.50
+Port	40001
+[END]
